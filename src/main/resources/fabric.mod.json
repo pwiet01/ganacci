@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "ganacci",
+	"version": "${version}",
+	"name": "Ganacci",
+	"description": "God bless Salvatore Ganacci",
+	"authors": [
+		"Patrice Wietmaier"
+	],
+	"contact": {
+		"homepage": "https://pwietmaier.de"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ganacci/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.pwietmaier.GanacciMod"
+		],
+		"client": [
+			"de.pwietmaier.GanacciModClient"
+		],
+		"fabric-datagen": [
+			"de.pwietmaier.GanacciModDataGenerator"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.14.18",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

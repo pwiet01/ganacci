@@ -1,0 +1,10 @@
+{
+  "ganacci_horse": {
+    "sounds": [
+      {
+        "name": "ganacci:ganacci_horse",
+        "stream": true
+      }
+    ]
+  }
+}
